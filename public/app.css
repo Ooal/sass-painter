@@ -57,8 +57,8 @@ header #main-nav ul li img {
 }
 
 header #main-nav ul li a {
-  padding-right: 5px;
-  font-size: 15px;
+  padding-right: 3px;
+  font-size: 13px;
   text-decoration: none;
   color: white;
 }
@@ -68,9 +68,9 @@ header #main-nav ul li i {
 }
 
 .jumbo {
-  background-image: url("https://images10.newegg.com/BizIntell/item/32/352/32-352-114/c0_hero%20image_Painter%20Essentials%207.jpg");
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: top center;
   width: 100%;
   height: 463px;
   display: flex;
@@ -92,6 +92,24 @@ header #main-nav ul li i {
   width: 500px;
 }
 
+.jumbo .container .prod-intro .trial {
+  margin-top: 25px;
+  width: 45%;
+  background: #666;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.jumbo .container .prod-intro .trial .fa-download {
+  font-size: 35px;
+}
+
 .jumbo .container .prod-intro h4 {
   font-size: 20px;
   margin: 20px 0;
@@ -103,18 +121,107 @@ header #main-nav ul li i {
 }
 
 .jumbo .container .prod-intro span {
-  margin: 5px 0;
+  margin: 9px 0;
+  font-size: 18px;
   display: flex;
   align-items: center;
 }
 
 .jumbo .container .prod-intro i {
-  font-size: 8px;
+  font-size: 13px;
   padding-right: 10px;
 }
 
-.jumbo .container .price {
-  background-color: rgba(0, 0, 0, 0.8);
+.jumbo .container .container-price {
+  background-color: rgba(0, 0, 0, 0.9);
   width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbo .container .container-price .price {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 19px;
+}
+
+.jumbo .container .container-price .price #sale {
+  color: #fff;
+  padding: 10px;
+  background-color: #CC397F;
+}
+
+.jumbo .container .container-price .price #prew-price {
+  padding-top: 30px;
+  text-decoration: line-through;
+  font-size: 18px;
+  color: #acacac;
+}
+
+.jumbo .container .container-price .price #new-price {
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 9px;
+}
+
+.jumbo .container .container-price .price #download {
+  color: #999;
+}
+
+.jumbo .container .container-price .price #buy {
+  padding: 10px 30px;
+  margin-top: 20px;
+  font-size: 15px;
+  background: #009cff;
+  border: 1px solid #009cff;
+  color: #fff;
+}
+
+.jumbo .container .container-price .costumer {
+  background-color: #e6e6e6;
+  width: 90%;
+  padding: 12px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.jumbo .container .container-price .costumer #cost {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.jumbo .container .container-price .costumer #save {
+  color: #CC397F;
+}
+
+.jumbo .container .container-price .costumer #learn {
+  font-size: 16px;
+  color: #009cff;
+  text-decoration: none;
+}
+
+#content-nav {
+  background-color: #e6e6e6;
+}
+
+#content-nav ul {
+  margin: 0 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+#content-nav ul li {
+  margin: 30px;
+  list-style: none;
+}
+
+#content-nav ul li a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
 }
 

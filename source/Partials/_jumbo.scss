@@ -1,7 +1,7 @@
 .jumbo{
-  background-image:url("https://images10.newegg.com/BizIntell/item/32/352/32-352-114/c0_hero%20image_Painter%20Essentials%207.jpg");
+  background-image:url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: top center;
   width: 100%;
   height:463px;
   display: flex;
@@ -15,9 +15,24 @@
     .prod-intro {
       display: flex;
       flex-direction: column;
-
       color: white;
       width:500px;
+      .trial {
+        margin-top: 25px;
+        width: 45%;
+        background: #666;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: left;
+        padding: 10px 13px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        .fa-download{
+          font-size: 35px;
+        }
+      }
       h4{
         font-size: 20px;
         margin: 20px 0;
@@ -27,18 +42,74 @@
         margin-top: 30px;
       }
       span {
-        margin: 5px 0;
+        margin: 9px 0;
+        font-size: 18px;
         display: flex;
         align-items: center;
       }
       i{
-        font-size: 8px;
+        font-size: 13px;
         padding-right: 10px;
       }
     }
-    .price {
-      background-color: rgba(0, 0, 0, 0.8);
+    .container-price {
+      background-color: rgba(0, 0, 0, 0.9);
       width:400px;
+      display: flex;
+      flex-direction: column;
+      .price{
+        color: white;
+        display: flex;
+        justify-content:space-between;
+        width: 100%;
+        padding: 19px;
+        #sale{
+          color: #fff;
+          padding: 10px;
+          background-color: #CC397F;
+        }
+        #prew-price {
+          padding-top: 30px;
+          text-decoration: line-through;
+          font-size: 18px;
+          color: #acacac;
+        }
+        #new-price {
+          font-size: 26px;
+          color: #fff;
+          margin-bottom: 9px;
+        }
+        #download {
+          color: #999;
+        }
+        #buy {
+          padding: 10px 30px;
+          margin-top: 20px;
+          font-size: 15px;
+          background: #009cff;
+          border: 1px solid #009cff;
+          color: #fff;
+        }
+      }
+      .costumer {
+        background-color: #e6e6e6;
+        width: 90%;
+        padding: 12px;
+        font-size: 14px;
+        margin: 0 auto;
+        #cost {
+          font-size: 20px;
+          text-transform: uppercase;
+        }
+        #save {
+          color: #CC397F;
+        }
+        #learn {
+          font-size: 16px;
+          color: #009cff;
+          text-decoration: none;
+        }
+      }
     }
   }
 }

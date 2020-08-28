@@ -8,3 +8,23 @@
 @import "partials/_commons.scss";
 @import "partials/_header.scss";
 @import "partials/_jumbo.scss";
+
+#content-nav {
+  background-color: #e6e6e6;
+  ul {
+    margin: $marginpage;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: uppercase;
+    li {
+      margin:30px;
+      list-style: none;
+      a{
+        font-size: 18px;
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+}
