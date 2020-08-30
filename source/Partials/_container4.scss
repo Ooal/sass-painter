@@ -1,0 +1,28 @@
+.container-4 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  .content-4 {
+    margin: $marginpage ;
+    text-align: center;
+    h2 {
+      font-size: 40px;
+      margin: 30px 0;
+    }
+    p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .img-effect {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      img {
+        width: 20%;
+        margin: 50px 10px;
+      }
+    }
+  }
+}

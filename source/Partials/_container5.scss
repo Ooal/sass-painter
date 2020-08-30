@@ -1,0 +1,30 @@
+.container-5 {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg");
+  background-position: top center;
+  height: 500px;
+  .content-5-5 {
+    display: flex;
+    align-items: center;
+    margin: $marginpage;
+    justify-content: space-around;
+    height: 500px;
+    .content-5 {
+      text-align: center;
+      background-color: white;
+      width: 500px;
+      height: 250px;
+      h2 {
+        font-size: 30px;
+        padding: 20px 0;
+      }
+      p {
+        font-size: 20px;
+        padding: 0 20px;
+        span {
+          color: #009cff;
+        }
+      }
+
+    }
+  }
+}
