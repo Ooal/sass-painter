@@ -436,6 +436,45 @@ header #main-nav ul li i {
   color: #009cff;
 }
 
+footer .content-footer {
+  margin: 50px 20%;
+}
+
+footer .content-footer .menu-footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+footer .content-footer .menu-footer .icon-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+footer .content-footer .menu-footer .icon-footer li {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+footer .content-footer .menu-footer .icon-footer li i {
+  font-size: 20px;
+}
+
+footer .content-footer .menu-footer p {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+footer .content-footer .menu-footer ul li {
+  list-style: none;
+}
+
+footer .content-footer .menu-footer ul li a {
+  text-decoration: none;
+  color: #5c5c5a;
+}
+
 #content-nav {
   background-color: #e6e6e6;
 }

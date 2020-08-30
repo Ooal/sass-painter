@@ -1,0 +1,35 @@
+footer {
+  .content-footer {
+    margin: 50px 20%;
+    .menu-footer{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+      .icon-footer {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        li {
+          display: inline-block;
+          padding-top: 10px;
+          i {
+            font-size: 20px;
+          }
+        }
+      }
+      p{
+        font-size: 20px;
+        padding-bottom: 5px;
+      }
+      ul {
+        li{
+          list-style: none;
+          a {
+            text-decoration: none;
+            color: #5c5c5a;
+          }
+        }
+      }
+    }
+  }
+}
