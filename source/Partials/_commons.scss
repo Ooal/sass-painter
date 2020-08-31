@@ -1,9 +1,7 @@
 
-@mixin size {
-  width: 100vw;
-  height: 100vh;
-}
-
-@mixin space {
-  margin: 50px;
+@mixin flexcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }

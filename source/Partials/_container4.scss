@@ -1,9 +1,6 @@
 .container-4 {
   background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  @include flexcolumn;
   .content-4 {
     margin: $marginpage ;
     text-align: center;
