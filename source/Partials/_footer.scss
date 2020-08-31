@@ -1,4 +1,5 @@
 footer {
+
   .content-footer {
     margin: 50px 20%;
     .menu-footer{
@@ -12,9 +13,6 @@ footer {
         li {
           display: inline-block;
           padding-top: 10px;
-          i {
-            font-size: 20px;
-          }
         }
       }
       p{
@@ -27,6 +25,56 @@ footer {
           a {
             text-decoration: none;
             color: #5c5c5a;
+              .fa-instagram-square{
+                font-size: 40px;
+                color: #e4405f;
+              }
+              .fa-facebook-square{
+                font-size: 40px;
+                color: #3b5998;
+              }
+              .fa-twitter-square{
+                font-size: 40px;
+                color: #1da1f2;
+              }
+              .fa-youtube-square{
+                font-size: 40px;
+                color: #cd201f;
+              }
+              .fa-pinterest-square{
+                font-size: 40px;
+                color: #bd081c;
+              }
+              .fa-rss-square{
+                font-size: 40px;
+                color: #ff8d00;
+              }
+          }
+        }
+      }
+    }
+  }
+
+  .terms-footer{
+    background-color: #1e1e1e;
+    height: 65px;
+    .menu-footer-2 {
+      margin: $marginpage;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        li {
+          display: inline-block;
+          padding-right:  15px;
+          color: white;
+          a{
+            color: #dadbd5;
+            text-decoration: none;
+            font-size: 14px;
           }
         }
       }

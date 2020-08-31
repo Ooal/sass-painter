@@ -457,10 +457,6 @@ footer .content-footer .menu-footer .icon-footer li {
   padding-top: 10px;
 }
 
-footer .content-footer .menu-footer .icon-footer li i {
-  font-size: 20px;
-}
-
 footer .content-footer .menu-footer p {
   font-size: 20px;
   padding-bottom: 5px;
@@ -473,6 +469,66 @@ footer .content-footer .menu-footer ul li {
 footer .content-footer .menu-footer ul li a {
   text-decoration: none;
   color: #5c5c5a;
+}
+
+footer .content-footer .menu-footer ul li a .fa-instagram-square {
+  font-size: 40px;
+  color: #e4405f;
+}
+
+footer .content-footer .menu-footer ul li a .fa-facebook-square {
+  font-size: 40px;
+  color: #3b5998;
+}
+
+footer .content-footer .menu-footer ul li a .fa-twitter-square {
+  font-size: 40px;
+  color: #1da1f2;
+}
+
+footer .content-footer .menu-footer ul li a .fa-youtube-square {
+  font-size: 40px;
+  color: #cd201f;
+}
+
+footer .content-footer .menu-footer ul li a .fa-pinterest-square {
+  font-size: 40px;
+  color: #bd081c;
+}
+
+footer .content-footer .menu-footer ul li a .fa-rss-square {
+  font-size: 40px;
+  color: #ff8d00;
+}
+
+footer .terms-footer {
+  background-color: #1e1e1e;
+  height: 65px;
+}
+
+footer .terms-footer .menu-footer-2 {
+  margin: 0 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer .terms-footer .menu-footer-2 ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer .terms-footer .menu-footer-2 ul li {
+  display: inline-block;
+  padding-right: 15px;
+  color: white;
+}
+
+footer .terms-footer .menu-footer-2 ul li a {
+  color: #dadbd5;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 #content-nav {
